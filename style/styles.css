@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+p{
+    font-size: 18px;
+}
+
+.ctn{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-p{
+    height: 495px;
+    border-radius: 13px;
+    background: hsl(216, 50%, 16%);
+    width: 284px;
+    padding: 20px 23px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.ctn-p h3{
+    margin-top: 15px;
+}
+
+.ctn-p h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.texto-conten{
+    margin-top: 15px;
+}
+
+.jules{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.jules:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.color-c{
+    color: hsl(178, 100%, 50%);
+}
+
+hr{
+    border: 0.01px solid hsl(215, 32%, 27%);
+}
+
+.ctn-p h3{
+    color: hsl(0, 0%, 100%);
+}
+
+.ctn-p-img img{
+    width: 100%;
+    height: 275px;
+    border-radius: 13px;
+    position: relative;
+}
+
+.ojo{
+    width: 284px;
+    height: 275px;
+    background: hsla(178, 100%, 50%, 0.26);
+    border-radius: 13px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7rem;
+}
+
+.ctn-p-img:hover .ojo{
+    display: flex;
+}
+
+.ctn-p-img:hover{
+    cursor: pointer;
+}
+
+.ctn--iconos{
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-iz{
+    display: flex;
+    align-items: center;
+}
+
+.icon-iz svg{
+    margin-right: 6px;
+}
+
+.icon-der{
+    display: flex;
+    align-items: center;
+}
+
+.icon-der svg{
+    margin-right: 5px;
+}
+
+.ctn-img-abajo{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.img-abajo{
+    background-image: url(../images/image-avatar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
